@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>G&M Grocery Database Management System</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+
+<!-- View page template-->
+<!-- Add Store page template -->
+<!-- Navigation bar between different entities, defaults to store add-->
+<div class="topnav">
+    <a class="active" href="#store">Store</a>
+    <a href="#employees">Employees</a>
+    <a href="#items">Items</a>
+    <a href="#customers">Customers</a>
+</div>
+
+
+<!-- Store Add fields. Add State field, City field, and submit button. I am not sure about the input fields, if I did that correctly to work with our database.-->
+<div class="container">
+    <form action="action_page.php">
+        <div class="row">
+            <div class="col-50">
+                <label for="locationState">State: </label>
+            </div>
+            <div class="col-50">
+                <input type="text" id="locationState" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <label for="locationCity">City: </label>
+            </div>
+            <div class="col-50">
+                <input type="text" id="locationCity" />
+            </div>
+        </div>
+        <button class="button">Submit</button>
+    </form>
+</div>
+
+
+
+
+

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>G&M Grocery Database Management System</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <!-- Add Employee page template -->
+    <!-- Navigation bar between different entities-->
+    <div class="topnav">
+        <a href="#store">Store</a>
+        <a class="active" href="#employees">Employees</a>
+        <a href="#items">Items</a>
+        <a href="#customers">Customers</a>
+    </div>
+
+    <!-- Employee Add fields. Add first name field, last name field, title field, and submit button. I am not sure about the input fields, if I did that correctly to work with our database.-->
+    <div class="container">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-50">
+                    <label for="firstName">First Name: </label>
+                </div>
+                <div class="col-50">
+                    <input type="text" id="firstName" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <label for="lastName">Last Name: </label>
+                </div>
+                <div class="col-50">
+                    <input type="text" id="lastName" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <label for="title">Title: </label>
+                </div>
+                <div class="col-50">
+                    <input type="text" id="title" />
+                </div>
+            </div>
+            <button class="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
